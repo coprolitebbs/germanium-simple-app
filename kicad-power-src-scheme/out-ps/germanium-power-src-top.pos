@@ -1,16 +1,16 @@
-### Footprint positions - created on Wednesday, 07 February 2024, 17:04:50 ###
+### Footprint positions - created on Tuesday, 05 March 2024, 17:04:05 ###
 ### Printed by KiCad version (7.0.0-0)
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref     Val        Package                                                 PosX       PosY       Rot  Side
 C1        470Mф_15В  CP_Radial_D10.0mm_P3.80mm                           135.7000   -95.5000    0.0000  top
-D1        Д223      D223                                                148.5000  -114.0000   90.0000  top
-D2        Д223      D223                                                148.5000   -82.5000  180.0000  top
-D3        Д2        D2                                                  109.5000   -83.5000    0.0000  top
-D4        Д2        D2                                                  109.5000   -89.5000    0.0000  top
-D5        Д2        D2                                                  109.5000   -95.5000    0.0000  top
-D6        Д2        D2                                                  109.5000  -101.5000    0.0000  top
-D7        Д223      D223                                                148.5000   -98.5000   90.0000  top
+D1        Д9        D223                                                148.5000  -114.0000   90.0000  top
+D2        Д9        D223                                                148.5000   -82.5000  180.0000  top
+D3        Д7        D2                                                  109.5000   -83.5000    0.0000  top
+D4        Д7        D2                                                  109.5000   -89.5000    0.0000  top
+D5        Д7        D2                                                  109.5000   -95.5000    0.0000  top
+D6        Д7        D2                                                  109.5000  -101.5000    0.0000  top
+D7        Д9        D223                                                148.5000   -98.5000   90.0000  top
 J1        Вход   PinSocket_1x02_P2.54mm_Vertical                     109.5000  -108.9600    0.0000  top
 J2        П213      PinSocket_1x03_P2.54mm_Vertical                     134.9200   -87.5000   90.0000  top
 J3        Вых     PinSocket_1x02_P2.54mm_Vertical                     144.0000   -90.0000  180.0000  top
