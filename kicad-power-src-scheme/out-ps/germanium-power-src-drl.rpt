@@ -1,5 +1,5 @@
 Drill report for germanium-power-src.kicad_pcb
-Created on Wednesday, 07 February 2024, 17:04:26
+Created on 2024-03-12T11:32:11+0300
 
 Copper Layer Stackup:
     =============================================================
@@ -11,8 +11,10 @@ Drill file 'germanium-power-src-PTH.drl' contains
     plated through holes:
     =============================================================
     T1  0.700mm  0.0276"  (3 holes)
-    T2  0.800mm  0.0315"  (15 holes)
-    T3  1.000mm  0.0394"  (17 holes)
+    T2  0.800mm  0.0315"  (9 holes)
+    T3  1.000mm  0.0394"  (9 holes)
+    T4  1.100mm  0.0433"  (6 holes)
+    T5  1.500mm  0.0591"  (8 holes)
 
     Total plated holes count 35
 
