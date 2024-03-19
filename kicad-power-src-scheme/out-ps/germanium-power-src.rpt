@@ -1,4 +1,4 @@
-## Footprint report - date 2024-03-12T11:32:57+0300
+## Footprint report - date 2024-03-19T09:37:32+0300
 ## Created by KiCad version 8.0.0
 ## Unit = mm, Angle = deg.
 
@@ -281,7 +281,7 @@ shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  Д7
 
-$MODULE Д9
+$MODULE Д814
 footprint Soviet:D9
 attribut none
 position 148.500000 114.000000  orientation 90.00
@@ -298,9 +298,9 @@ position 12.000000  0.000000  size  2.200000  2.200000  orientation 0.00
 drill  1.100000
 shape_offset  0.000000  0.000000
 $EndPAD
-$EndMODULE  Д9
+$EndMODULE  Д814
 
-$MODULE Д9
+$MODULE Д814
 footprint Soviet:D9
 attribut none
 position 148.500000 82.500000  orientation 180.00
@@ -317,9 +317,9 @@ position 12.000000  0.000000  size  2.200000  2.200000  orientation 0.00
 drill  1.100000
 shape_offset  0.000000  0.000000
 $EndPAD
-$EndMODULE  Д9
+$EndMODULE  Д814
 
-$MODULE Д9
+$MODULE Д814
 footprint Soviet:D9
 attribut none
 position 148.500000 98.500000  orientation 90.00
@@ -336,6 +336,6 @@ position 12.000000  0.000000  size  2.200000  2.200000  orientation 0.00
 drill  1.100000
 shape_offset  0.000000  0.000000
 $EndPAD
-$EndMODULE  Д9
+$EndMODULE  Д814
 
 $EndDESCRIPTION

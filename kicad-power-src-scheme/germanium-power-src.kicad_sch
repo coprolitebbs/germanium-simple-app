@@ -1055,6 +1055,163 @@
 				)
 			)
 		)
+		(symbol "PCM_Diode_Zener_AKL:D_Zener_Generic"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "DZ"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener_Generic"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode, generic symbol, Alternate KiCAD Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode zener generic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_Generic_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "D_Zener_Generic_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Soviet:D2"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -1189,156 +1346,6 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Soviet:D9"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D9"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Soviet:D9"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://static.chipdip.ru/lib/270/DOC000270836.pdf"
-				(at -1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 1.27 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=A 2=K"
-				(at -6.35 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D9_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D9_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2934,7 +2941,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Soviet:D9")
+		(lib_id "PCM_Diode_Zener_AKL:D_Zener_Generic")
 		(at 58.42 162.56 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2944,7 +2951,7 @@
 		(fields_autoplaced yes)
 		(uuid "72c2cf5d-11e6-4b94-9740-feaf4e209e0f")
 		(property "Reference" "D1"
-			(at 60.96 161.925 90)
+			(at 60.96 161.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2953,7 +2960,7 @@
 			)
 		)
 		(property "Value" "D224"
-			(at 60.96 164.465 90)
+			(at 60.96 163.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2962,7 +2969,7 @@
 			)
 		)
 		(property "Footprint" "Soviet:D9"
-			(at 49.53 162.56 0)
+			(at 58.42 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2970,8 +2977,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://static.chipdip.ru/lib/270/DOC000270836.pdf"
-			(at 52.07 161.29 0)
+		(property "Datasheet" "~"
+			(at 58.42 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2979,7 +2986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Zener diode, generic symbol, Alternate KiCAD Library"
 			(at 58.42 162.56 0)
 			(effects
 				(font
@@ -3028,7 +3035,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Soviet:D9")
+		(lib_id "PCM_Diode_Zener_AKL:D_Zener_Generic")
 		(at 58.42 152.4 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3038,7 +3045,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f16632b-f87f-48a9-bcd2-75ed33017dc0")
 		(property "Reference" "D1"
-			(at 60.96 151.765 90)
+			(at 60.96 151.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3047,7 +3054,7 @@
 			)
 		)
 		(property "Value" "D224"
-			(at 60.96 154.305 90)
+			(at 60.96 153.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3056,7 +3063,7 @@
 			)
 		)
 		(property "Footprint" "Soviet:D9"
-			(at 49.53 152.4 0)
+			(at 58.42 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3064,8 +3071,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://static.chipdip.ru/lib/270/DOC000270836.pdf"
-			(at 52.07 151.13 0)
+		(property "Datasheet" "~"
+			(at 58.42 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3073,7 +3080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Zener diode, generic symbol, Alternate KiCAD Library"
 			(at 58.42 152.4 0)
 			(effects
 				(font
@@ -3587,7 +3594,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Soviet:D9")
+		(lib_id "PCM_Diode_Zener_AKL:D_Zener_Generic")
 		(at 58.42 142.24 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3597,7 +3604,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4667e99-c17e-441a-b06e-23d5cb64690b")
 		(property "Reference" "D1"
-			(at 60.96 141.605 90)
+			(at 60.96 140.9699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3606,7 +3613,7 @@
 			)
 		)
 		(property "Value" "D224"
-			(at 60.96 144.145 90)
+			(at 60.96 143.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3615,7 +3622,7 @@
 			)
 		)
 		(property "Footprint" "Soviet:D9"
-			(at 49.53 142.24 0)
+			(at 58.42 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3623,8 +3630,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://static.chipdip.ru/lib/270/DOC000270836.pdf"
-			(at 52.07 140.97 0)
+		(property "Datasheet" "~"
+			(at 58.42 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3632,7 +3639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Zener diode, generic symbol, Alternate KiCAD Library"
 			(at 58.42 142.24 0)
 			(effects
 				(font

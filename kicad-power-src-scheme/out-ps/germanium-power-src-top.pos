@@ -1,4 +1,4 @@
-### Footprint positions - created on 2024-03-12T11:32:45+0300 ###
+### Footprint positions - created on 2024-03-19T09:37:18+0300 ###
 ### Printed by KiCad version 8.0.0
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -16,7 +16,7 @@ R3        1K         R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal   120.420
 RV1       10K        Potentiometer_Bourns_3296W_Vertical                 115.5000  -107.4200   90.0000  top
 Д7       D224       D2                                                  129.5000   -83.5000  180.0000  top
 Д7       D224       D2                                                  109.5000   -89.5000    0.0000  top
-Д9       D224       D9                                                  148.5000   -82.5000  180.0000  top
-Д9       D224       D9                                                  148.5000  -114.0000   90.0000  top
-Д9       D224       D9                                                  148.5000   -98.5000   90.0000  top
+Д814     D224       D9                                                  148.5000   -82.5000  180.0000  top
+Д814     D224       D9                                                  148.5000  -114.0000   90.0000  top
+Д814     D224       D9                                                  148.5000   -98.5000   90.0000  top
 ## End
