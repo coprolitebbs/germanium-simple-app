@@ -4742,7 +4742,7 @@
 				)
 			)
 		)
-		(property "Value" "D9"
+		(property "Value" "Д9"
 			(at 5.21 0.2 90)
 			(layer "F.SilkS")
 			(uuid "f5ec4cc3-2bb4-45be-86f2-787343273975")
@@ -10998,7 +10998,7 @@
 				)
 			)
 		)
-		(property "Value" "D9"
+		(property "Value" "Д9"
 			(at 5.56 0 90)
 			(layer "F.SilkS")
 			(uuid "636fb468-9fab-4160-be80-676f1aa8fb7c")
