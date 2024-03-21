@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 1.2,
+          "height": 2.4,
+          "width": 2.4
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -75,7 +75,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_symbol_mismatch": "warning",
+        "footprint_symbol_mismatch": "ignore",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
@@ -462,7 +462,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
+        "track_width": 1.0,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -590,7 +590,7 @@
   "sheets": [
     [
       "f8e32cd0-ff7e-4179-aa45-0ac39c6546a3",
-      "Корневой лист"
+      "Root"
     ]
   ],
   "text_variables": {}

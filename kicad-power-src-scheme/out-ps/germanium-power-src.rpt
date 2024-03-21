@@ -1,4 +1,4 @@
-## Footprint report - date 2024-03-19T09:37:32+0300
+## Footprint report - date 2024-03-21T13:18:13+0300
 ## Created by KiCad version 8.0.0
 ## Unit = mm, Angle = deg.
 
@@ -12,7 +12,7 @@ $EndBOARD
 $MODULE C1
 footprint Capacitor_THT:CP_Radial_D10.0mm_P3.80mm
 attribut none
-position 135.700000 95.500000  orientation 0.00
+position 148.232300 88.000000  orientation 0.00
 layer front
 $PAD "1"
 Shape Rect Layer both
@@ -28,19 +28,171 @@ shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  C1
 
-$MODULE D5
-footprint Soviet:D2
+$MODULE C2
+footprint Capacitor_THT:CP_Radial_D10.0mm_P3.50mm
 attribut none
-position 129.500000 95.500000  orientation 180.00
+position 140.000000 88.000000  orientation 180.00
 layer front
 $PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  2.000000  2.000000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  3.500000  0.000000  size  2.000000  2.000000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C2
+
+$MODULE C3
+footprint Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal
+attribut none
+position 146.500000 95.500000  orientation 0.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
 Shape Oval Layer both
-position 20.000000  0.000000  size  2.500000  2.500000  orientation 0.00
+position  7.500000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C3
+
+$MODULE C4
+footprint Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal
+attribut none
+position 115.000000 84.000000  orientation 0.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  7.500000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C4
+
+$MODULE C5
+footprint Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal
+attribut none
+position 115.000000 95.000000  orientation 0.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  7.500000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C5
+
+$MODULE C6
+footprint Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal
+attribut none
+position 115.000000 117.000000  orientation 0.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  7.500000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C6
+
+$MODULE C7
+footprint Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal
+attribut none
+position 122.500000 106.000000  orientation 180.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  7.500000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C7
+
+$MODULE D3
+footprint Soviet:D7
+attribut none
+position 108.100000 100.500000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position 22.000000  0.000000  size  2.500000  2.500000  orientation 0.00
 drill  1.500000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "2"
+Shape Oval Layer both
+position  0.000000  0.000000  size  2.500000  2.500000  orientation 0.00
+drill  1.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  D3
+
+$MODULE D4
+footprint Soviet:D7
+attribut none
+position 129.950000 111.500000  orientation 180.00
+layer front
+$PAD "1"
 Shape Rect Layer both
+position 22.000000  0.000000  size  2.500000  2.500000  orientation 0.00
+drill  1.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  0.000000  0.000000  size  2.500000  2.500000  orientation 0.00
+drill  1.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  D4
+
+$MODULE D5
+footprint Soviet:D7
+attribut none
+position 108.550000 78.500000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position 22.000000  0.000000  size  2.500000  2.500000  orientation 0.00
+drill  1.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
 position  0.000000  0.000000  size  2.500000  2.500000  orientation 0.00
 drill  1.500000
 shape_offset  0.000000  0.000000
@@ -48,35 +200,54 @@ $EndPAD
 $EndMODULE  D5
 
 $MODULE D6
-footprint Soviet:D2
+footprint Soviet:D7
 attribut none
-position 109.500000 101.500000  orientation 0.00
+position 129.900000 89.500000  orientation 180.00
 layer front
 $PAD "1"
-Shape Oval Layer both
-position 20.000000  0.000000  size  2.500000  2.500000  orientation 0.00
+Shape Rect Layer both
+position 22.000000  0.000000  size  2.500000  2.500000  orientation 0.00
 drill  1.500000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "2"
-Shape Rect Layer both
+Shape Oval Layer both
 position  0.000000  0.000000  size  2.500000  2.500000  orientation 0.00
 drill  1.500000
 shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  D6
 
+$MODULE DZ1
+footprint Diode_THT:D_DO-15_P12.70mm_Horizontal
+attribut none
+position 148.500000 120.500000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  2.400000  2.400000  orientation 0.00
+drill  1.200000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position 12.700000  0.000000  size  2.400000  2.400000  orientation 0.00
+drill  1.200000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  DZ1
+
 $MODULE G***
-footprint LOGO
+footprint Soviet:LOGO CCCP
 attribut virtual
-position 109.400000 120.000000  orientation 0.00
+position 109.500000 119.500000  orientation 0.00
 layer front
 $EndMODULE  G***
 
 $MODULE J1
 footprint Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical
 attribut none
-position 109.500000 108.960000  orientation 0.00
+position 102.000000 111.500000  orientation 180.00
 layer front
 $PAD "1"
 Shape Rect Layer both
@@ -95,23 +266,23 @@ $EndMODULE  J1
 $MODULE J2
 footprint Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical
 attribut none
-position 134.920000 87.500000  orientation 90.00
+position 140.500000 76.000000  orientation -90.00
 layer front
 $PAD "1"
 Shape Rect Layer both
-position  0.000000  0.000000  size  1.700000  1.700000  orientation 0.00
+position  0.000000  0.000000  size  1.700000  1.700000  orientation 360.00
 drill  1.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "2"
 Shape Oval Layer both
-position  0.000000  2.540000  size  1.700000  1.700000  orientation 0.00
+position  0.000000  2.540000  size  1.700000  1.700000  orientation 360.00
 drill  1.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "3"
 Shape Oval Layer both
-position  0.000000  5.080000  size  1.700000  1.700000  orientation 0.00
+position  0.000000  5.080000  size  1.700000  1.700000  orientation 360.00
 drill  1.000000
 shape_offset  0.000000  0.000000
 $EndPAD
@@ -120,7 +291,7 @@ $EndMODULE  J2
 $MODULE J3
 footprint Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical
 attribut none
-position 144.000000 90.000000  orientation 180.00
+position 145.960000 76.000000  orientation 90.00
 layer front
 $PAD "1"
 Shape Rect Layer both
@@ -136,10 +307,29 @@ shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  J3
 
+$MODULE J4
+footprint Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical
+attribut none
+position 156.000000 105.500000  orientation 180.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  0.000000  2.540000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J4
+
 $MODULE Q1
 footprint Soviet:Soviet-MP38
 attribut none
-position 136.450000 109.000000  orientation 0.00
+position 135.950000 116.500000  orientation 0.00
 layer front
 $PAD "1"
 Shape Oval Layer both
@@ -164,7 +354,7 @@ $EndMODULE  Q1
 $MODULE R1
 footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
 attribut none
-position 120.420000 113.500000  orientation 0.00
+position 144.080000 105.000000  orientation 180.00
 layer front
 $PAD "1"
 Shape Circle Layer both
@@ -183,7 +373,7 @@ $EndMODULE  R1
 $MODULE R2
 footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
 attribut none
-position 120.420000 110.000000  orientation 0.00
+position 102.000000 92.080000  orientation 90.00
 layer front
 $PAD "1"
 Shape Circle Layer both
@@ -202,17 +392,17 @@ $EndMODULE  R2
 $MODULE R3
 footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
 attribut none
-position 120.420000 106.500000  orientation 0.00
+position 102.000000 94.840000  orientation -90.00
 layer front
 $PAD "1"
 Shape Circle Layer both
-position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 360.00
 drill  0.800000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "2"
 Shape Oval Layer both
-position 10.160000  0.000000  size  1.600000  1.600000  orientation 0.00
+position 10.160000  0.000000  size  1.600000  1.600000  orientation 360.00
 drill  0.800000
 shape_offset  0.000000  0.000000
 $EndPAD
@@ -221,7 +411,7 @@ $EndMODULE  R3
 $MODULE RV1
 footprint Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical
 attribut none
-position 115.500000 107.420000  orientation 90.00
+position 141.040000 96.500000  orientation 0.00
 layer front
 $PAD "1"
 Shape Circle Layer both
@@ -243,99 +433,11 @@ shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  RV1
 
-$MODULE Д7
-footprint Soviet:D2
-attribut none
-position 129.500000 83.500000  orientation 180.00
+$MODULE Strogg logo
+footprint Symbol:Strogg_logo
+attribut virtual
+position 148.500000 101.500000  orientation 0.00
 layer front
-$PAD "1"
-Shape Oval Layer both
-position 20.000000  0.000000  size  2.500000  2.500000  orientation 0.00
-drill  1.500000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "2"
-Shape Rect Layer both
-position  0.000000  0.000000  size  2.500000  2.500000  orientation 0.00
-drill  1.500000
-shape_offset  0.000000  0.000000
-$EndPAD
-$EndMODULE  Д7
-
-$MODULE Д7
-footprint Soviet:D2
-attribut none
-position 109.500000 89.500000  orientation 0.00
-layer front
-$PAD "1"
-Shape Oval Layer both
-position 20.000000  0.000000  size  2.500000  2.500000  orientation 0.00
-drill  1.500000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "2"
-Shape Rect Layer both
-position  0.000000  0.000000  size  2.500000  2.500000  orientation 0.00
-drill  1.500000
-shape_offset  0.000000  0.000000
-$EndPAD
-$EndMODULE  Д7
-
-$MODULE Д814
-footprint Soviet:D9
-attribut none
-position 148.500000 114.000000  orientation 90.00
-layer front
-$PAD "1"
-Shape Rect Layer both
-position  0.000000  0.000000  size  2.200000  2.200000  orientation 0.00
-drill  1.100000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "2"
-Shape Oval Layer both
-position 12.000000  0.000000  size  2.200000  2.200000  orientation 0.00
-drill  1.100000
-shape_offset  0.000000  0.000000
-$EndPAD
-$EndMODULE  Д814
-
-$MODULE Д814
-footprint Soviet:D9
-attribut none
-position 148.500000 82.500000  orientation 180.00
-layer front
-$PAD "1"
-Shape Rect Layer both
-position  0.000000  0.000000  size  2.200000  2.200000  orientation 0.00
-drill  1.100000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "2"
-Shape Oval Layer both
-position 12.000000  0.000000  size  2.200000  2.200000  orientation 0.00
-drill  1.100000
-shape_offset  0.000000  0.000000
-$EndPAD
-$EndMODULE  Д814
-
-$MODULE Д814
-footprint Soviet:D9
-attribut none
-position 148.500000 98.500000  orientation 90.00
-layer front
-$PAD "1"
-Shape Rect Layer both
-position  0.000000  0.000000  size  2.200000  2.200000  orientation 0.00
-drill  1.100000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "2"
-Shape Oval Layer both
-position 12.000000  0.000000  size  2.200000  2.200000  orientation 0.00
-drill  1.100000
-shape_offset  0.000000  0.000000
-$EndPAD
-$EndMODULE  Д814
+$EndMODULE  Strogg logo
 
 $EndDESCRIPTION
